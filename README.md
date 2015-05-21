@@ -34,3 +34,15 @@ Thu May 21 01:22:23 2015 - clients1.google.com [60990]
           -> A    173.194.33.160
           -> A    173.194.33.161
 ```
+
+## Installation from Github
+
+```
+$ curl -L https://github.com/bmorton/dnswatch/releases/download/v0.1.0/dnswatch-linux-amd64.tar.gz | tar -xz
+```
+
+## Release packaging notes
+
+```
+$ tar -pcvzf dnswatch-linux-amd64.tar.gz dnswatch
+```
